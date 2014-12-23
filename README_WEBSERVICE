@@ -1,0 +1,138 @@
+Web services:
+
+Para poder acceder a los web services será necesario dirigir sus formularios a las siguientes direcciones:
+
+Para crear un nuevo curso:
+
+
+index.php?r=webservices/crearCurso
+
+Como parámetros es necesario mandar mediante método POST variables con los siguientes nombres:
+
+idSocioTecnologico.- Esta variable deberá contener el id numérico, es decir, la llave primaria del socio tecnológico dado de alta en la base de datos asociado con el curso que se está dando de alta, este campo es indispensable.
+
+folioSocioTecnologico.- Esta variable deberá contener con caracteres numéricos o alfa numéricos con un máximo de 20 caracteres el numero de folio del socio tecnológico.
+
+nombreCurso.- Esta variable deberá contener con caracteres numéricos o alfa numéricos con un máximo de 200 caracteres el nombre del curso que se está dando de alta.
+
+descripcion.- Esta variable deberá contener con caracteres numéricos o alfa numéricos la descripción del curso que se está dando de alta.
+
+pdfTemario.- Esta variable deberá contener con caracteres numéricos o alfa numéricos con un máximo de 200 caracteres la ruta web del pdf que contiene el temario del curso que se está dando de alta.
+
+idCategoriaCurso.- Esta variable deberá contener con caracteres numéricos el id numérico, es decir, la llave primaria de la categoría a la cual pertenece el curso que se está dando de alta, este campo es indispensable.
+
+horasCurso.- Esta variable deberá contener con caracteres numéricos la hora de duración del curso.
+
+formato.- Esta variable deberá contener con caracteres alfa numéricos el tipo de formato del curso que se está dando de alta, los cuales únicamente pueden ser de 2 tipos: 
+-	presencial
+-	linea
+Estos serán las únicas 2 cadenas de texto que este campo permitirá.
+
+fechaInicio.- Esta variable deberá contener en formato AAAA-MM-DD la fecha de inicio del curso que se está dando de alta.
+
+estatusCurso.- Esta variable deberá contener con un solo carácter numérico si el estatus del curso:
+-	Numero 1 para cuando el curso está activo.
+-	Numero 0 para cuando el curso está inactivo.
+
+usuario.- Esta variable deberá contener con caracteres numéricos o alfa numéricos con un máximo de 200 el nombre de usuario del socio tecnológico previamente dado de alta en la base de datos.
+
+contrasenia.- Esta variable deberá contener con caracteres numéricos o alfa numéricos con un máximo de 200 la contraseña del socio tecnológico previamente dado de alta en la base de datos.
+
+
+Para actualizar un curso existente:
+
+
+index.php?r=webservices/modificarCurso
+
+Como parámetros es necesario mandar mediante método POST variables con los siguientes nombres:
+
+idCurso.- Esta variable deberá contener el id numérico, es decir, la llave primaria del curso almacenado en la base de datos, el cual se requiere ser modificado.
+
+idSocioTecnologico.- Esta variable deberá contener el id numérico, es decir, la llave primaria del socio tecnológico dado de alta en la base de datos asociado con el curso que está siendo modificado, este campo es indispensable.
+
+folioSocioTecnologico.- Esta variable deberá contener con caracteres numéricos o alfa numéricos con un máximo de 20 caracteres el numero de folio del socio tecnológico.
+
+nombreCurso.- Esta variable deberá contener con caracteres numéricos o alfa numéricos con un máximo de 200 caracteres el nombre del curso que está siendo modificado.
+
+descripcion.- Esta variable deberá contener con caracteres numéricos o alfa numéricos la descripción del curso que está siendo modificado.
+
+pdfTemario.- Esta variable deberá contener con caracteres numéricos o alfa numéricos con un máximo de 200 caracteres la ruta web del pdf que contiene el temario del curso que está siendo modificado.
+
+idCategoriaCurso.- Esta variable deberá contener con caracteres numéricos el id numérico, es decir, la llave primaria de la categoría a la cual pertenece el curso que está siendo modificado, este campo es indispensable.
+
+horasCurso.- Esta variable deberá contener con caracteres numéricos la hora de duración del curso.
+
+formato.- Esta variable deberá contener con caracteres alfa numéricos el tipo de formato del curso que se está dando de alta, los cuales únicamente pueden ser de 2 tipos: 
+-	presencial
+-	linea
+Estos serán las únicas 2 cadenas de texto que este campo permitirá.
+
+fechaInicio.- Esta variable deberá contener en formato AAAA-MM-DD la fecha de inicio del curso que está siendo modificado.
+
+estatusCurso.- Esta variable deberá contener con un solo carácter numérico si el estatus del curso:
+-	Numero 1 para cuando el curso está activo.
+-	Numero 0 para cuando el curso está inactivo.
+
+idCategoriaComprobante.- Esta variable deberá contener con caracteres numéricos el id numérico, es decir, la llave primaria del comprobante al cual pertenece el curso que está siendo modificado, este campo es indispensable. 
+
+usuario.- Esta variable deberá contener con caracteres numéricos o alfa numéricos con un máximo de 200 el nombre de usuario del socio tecnológico previamente dado de alta en la base de datos.
+
+contrasenia.- Esta variable deberá contener con caracteres numéricos o alfa numéricos con un máximo de 200 la contraseña del socio tecnológico previamente dado de alta en la base de datos.
+
+
+
+Para eliminar un curso existente:
+
+
+index.php?r=webservices/borrarCurso
+
+Como parámetros es necesario mandar mediante método POST variables con los siguientes nombres:
+
+idCurso.- Esta variable deberá contener el id numérico, es decir, la llave primaria del curso almacenado en la base de datos, el cual se requiere ser eliminado.
+
+usuario.- Esta variable deberá contener con caracteres numéricos o alfa numéricos con un máximo de 200 el nombre de usuario del socio tecnológico previamente dado de alta en la base de datos.
+
+contrasenia.- Esta variable deberá contener con caracteres numéricos o alfa numéricos con un máximo de 200 la contraseña del socio tecnológico previamente dado de alta en la base de datos.
+
+
+Para actualizar un curso existente para un servidor publico:
+
+
+index.php?r=webservices/modificarCursoDisponible
+
+Como parámetros es necesario mandar mediante método POST variables con los siguientes nombres:
+
+idCurso.- Esta variable deberá contener el id numérico, es decir, la llave primaria del curso almacenado en la base de datos, el cual se requiere ser modificado.
+
+idServidorPublico.- Esta variable deberá contener el id numérico, es decir, la llave primaria del servidor publico dado de alta en la base de datos asociado con el curso que está siendo modificado, este campo es indispensable.
+
+folioSocioTecnologico.- Esta variable deberá contener con caracteres numéricos o alfa numéricos con un máximo de 20 caracteres el numero de folio del socio tecnológico.
+
+fechaInicio.- Esta variable deberá contener en formato AAAA-MM-DD la fecha de inicio del curso que está siendo modificado.
+
+fechaFin.- Esta variable deberá contener en formato AAAA-MM-DD la fecha de fin del curso que está siendo modificado.
+
+finalizacionCurso.- Esta variable deberá contener con un solo carácter numérico si el estatus del curso:
+-	Numero 1 para cuando el curso ha terminado.
+-	Numero 0 para cuando el curso aun esté vigente.
+
+calificacion.- Esta variable deberá contener con caracteres numéricos la calificación con la cual el participante esta evaluando el curso.
+
+usuario.- Esta variable deberá contener con caracteres numéricos o alfa numéricos con un máximo de 200 el nombre de usuario del socio tecnológico previamente dado de alta en la base de datos.
+
+contrasenia.- Esta variable deberá contener con caracteres numéricos o alfa numéricos con un máximo de 200 la contraseña del socio tecnológico previamente dado de alta en la base de datos.
+
+Manejo de respuestas:
+
+Los web services regresarán como respuesta a cada una de las solicitudes una respuesta en JSON con 2 elementos:
+
+error.- El cual en caso de haber ocurrido un error en la inserción, modificación, o eliminación de datos mandará como respuesta el numero 1, en caso de no haber ningún error en el manejo de datos como respuesta imprimirá el numero 0.
+
+mensaje.- Contiene la descripción del error ocurrido, o en su defecto el mensaje de éxito en la ejecución de los web services.
+
+La respuesta de los web services se encuentran en el siguiente formato:
+
+{"error":0,"mensaje":"Operación realizada con éxito"}
+
+{"error":1,"mensaje":{"id_socio_tecnologico":["Socio Tecnológico es requerido"],"folio_socio_tecnologico":["Folio Socio Tecnológico es requerido"]}}
+

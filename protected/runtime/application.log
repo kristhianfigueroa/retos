@@ -1,0 +1,1520 @@
+2014/12/22 12:37:49 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42000]: Syntax error or access violation: 1103 Incorrect table name ''. La sentencia SQL ejecutada fue: SHOW FULL COLUMNS FROM ``.
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/models/CatNivelAcceso.php (31)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/models/CatNivelAcceso.php (97)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/views/servidorPublico/_form.php (122)
+2014/12/22 12:37:49 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "" definida en la clase active record "CatNivelAcceso" no se ha podido encontrar en la base de datos.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/ar/CActiveRecord.php:2310
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(CatNivelAcceso))
+#1 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/models/CatNivelAcceso.php(31): CActiveRecord::model('CatNivelAcceso')
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/models/CatNivelAcceso.php(97): CatNivelAcceso::model()
+#3 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/views/servidorPublico/_form.php(122): CatNivelAcceso->comboBox()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/views/servidorPublico/update.php(36): CController->renderPartial('_form', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('update', Array, true)
+#12 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/controllers/ServidorPublicoController.php(134): CController->render('update', Array)
+#13 [internal function]: ServidorPublicoController->actionUpdate('15')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ServidorPublicoController), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ServidorPublicoController), Object(ReflectionMethod), Array)
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#23 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#25 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/servidorP...')
+#26 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#27 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#28 {main}
+REQUEST_URI=/retos/index.php?r=admin/servidorPublico/update&id_servidor_publico=15
+HTTP_REFERER=http://localhost/retos/index.php?r=admin/servidorPublico
+---
+2014/12/22 12:37:50 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42000]: Syntax error or access violation: 1103 Incorrect table name ''. La sentencia SQL ejecutada fue: SHOW FULL COLUMNS FROM ``.
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/models/CatNivelAcceso.php (31)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/models/CatNivelAcceso.php (97)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/views/servidorPublico/_form.php (122)
+2014/12/22 12:37:50 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "" definida en la clase active record "CatNivelAcceso" no se ha podido encontrar en la base de datos.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/ar/CActiveRecord.php:2310
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(CatNivelAcceso))
+#1 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/models/CatNivelAcceso.php(31): CActiveRecord::model('CatNivelAcceso')
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/models/CatNivelAcceso.php(97): CatNivelAcceso::model()
+#3 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/views/servidorPublico/_form.php(122): CatNivelAcceso->comboBox()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/views/servidorPublico/update.php(36): CController->renderPartial('_form', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('update', Array, true)
+#12 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/controllers/ServidorPublicoController.php(134): CController->render('update', Array)
+#13 [internal function]: ServidorPublicoController->actionUpdate('14')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ServidorPublicoController), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ServidorPublicoController), Object(ReflectionMethod), Array)
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#23 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#25 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/servidorP...')
+#26 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#27 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#28 {main}
+REQUEST_URI=/retos/index.php?r=admin/servidorPublico/update&id_servidor_publico=14
+HTTP_REFERER=http://localhost/retos/index.php?r=admin/servidorPublico
+---
+2014/12/22 12:37:51 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42000]: Syntax error or access violation: 1103 Incorrect table name ''. La sentencia SQL ejecutada fue: SHOW FULL COLUMNS FROM ``.
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/models/CatNivelAcceso.php (31)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/models/CatNivelAcceso.php (97)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/views/servidorPublico/_form.php (122)
+2014/12/22 12:37:51 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "" definida en la clase active record "CatNivelAcceso" no se ha podido encontrar en la base de datos.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/ar/CActiveRecord.php:2310
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(CatNivelAcceso))
+#1 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/models/CatNivelAcceso.php(31): CActiveRecord::model('CatNivelAcceso')
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/models/CatNivelAcceso.php(97): CatNivelAcceso::model()
+#3 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/views/servidorPublico/_form.php(122): CatNivelAcceso->comboBox()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/views/servidorPublico/update.php(36): CController->renderPartial('_form', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('update', Array, true)
+#12 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/controllers/ServidorPublicoController.php(134): CController->render('update', Array)
+#13 [internal function]: ServidorPublicoController->actionUpdate('13')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ServidorPublicoController), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ServidorPublicoController), Object(ReflectionMethod), Array)
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#23 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#25 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/servidorP...')
+#26 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#27 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#28 {main}
+REQUEST_URI=/retos/index.php?r=admin/servidorPublico/update&id_servidor_publico=13
+HTTP_REFERER=http://localhost/retos/index.php?r=admin/servidorPublico
+---
+2014/12/22 12:37:51 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42000]: Syntax error or access violation: 1103 Incorrect table name ''. La sentencia SQL ejecutada fue: SHOW FULL COLUMNS FROM ``.
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/models/CatNivelAcceso.php (31)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/models/CatNivelAcceso.php (97)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/views/servidorPublico/_form.php (122)
+2014/12/22 12:37:51 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "" definida en la clase active record "CatNivelAcceso" no se ha podido encontrar en la base de datos.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/ar/CActiveRecord.php:2310
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/ar/CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(CatNivelAcceso))
+#1 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/models/CatNivelAcceso.php(31): CActiveRecord::model('CatNivelAcceso')
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/models/CatNivelAcceso.php(97): CatNivelAcceso::model()
+#3 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/views/servidorPublico/_form.php(122): CatNivelAcceso->comboBox()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/views/servidorPublico/update.php(36): CController->renderPartial('_form', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('update', Array, true)
+#12 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/controllers/ServidorPublicoController.php(134): CController->render('update', Array)
+#13 [internal function]: ServidorPublicoController->actionUpdate('4')
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ServidorPublicoController), Array)
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ServidorPublicoController), Object(ReflectionMethod), Array)
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#23 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#25 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/servidorP...')
+#26 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#27 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#28 {main}
+REQUEST_URI=/retos/index.php?r=admin/servidorPublico/update&id_servidor_publico=4
+HTTP_REFERER=http://localhost/retos/index.php?r=admin/servidorPublico
+---
+2014/12/22 12:41:38 [warning] [application] Error al definir unsafe el atributo "foto" de "ServidorPublico".
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/controllers/ServidorPublicoController.php (110)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/index.php (17)
+2014/12/22 14:13:52 [warning] [application] Error al definir unsafe el atributo "foto" de "ServidorPublico".
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/controllers/ServidorPublicoController.php (109)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/index.php (17)
+2014/12/22 14:14:14 [warning] [application] Error al definir unsafe el atributo "foto" de "ServidorPublico".
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/controllers/ServidorPublicoController.php (109)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/index.php (17)
+2014/12/22 14:14:20 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() falló: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'activo' in 'where clause'. La sentencia SQL ejecutada fue: SELECT COUNT(*) FROM `trayectoria_laboral` `t` WHERE (id_servidor_publico=:ycp1) AND (activo=:ycp2).
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/views/trayectoriaLaboral/index.php (143)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/controllers/TrayectoriaLaboralController.php (176)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/index.php (17)
+2014/12/22 14:14:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'activo' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `trayectoria_laboral` `t` WHERE (id_servidor_publico=:ycp1) AND (activo=:ycp2)' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/ar/CActiveRecord.php(1546): CDbCommand->queryScalar()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CActiveDataProvider.php(179): CActiveRecord->count(Object(CDbCriteria))
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CActiveDataProvider.php(129): CDataProvider->getTotalItemCount()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/CBaseListView.php(107): CDataProvider->getData()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/zii/widgets/grid/CGridView.php(314): CBaseListView->init()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(147): CGridView->init()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/views/trayectoriaLaboral/index.php(143): CBaseController->widget('zii.widgets.gri...', Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#15 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/controllers/TrayectoriaLaboralController.php(176): CController->render('index', Array)
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): TrayectoriaLaboralController->actionIndex()
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#24 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#26 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/trayector...')
+#27 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#28 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#29 {main}
+REQUEST_URI=/retos/index.php?r=admin/trayectoriaLaboral/index&id_servidor_publico=4
+HTTP_REFERER=http://localhost/retos/index.php?r=admin/servidorPublico/index
+---
+2014/12/22 14:17:08 [error] [php] Invalid argument supplied for foreach() (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/helpers/CHtml.php:2053)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/views/servidorPublico/_form.php(121): CActiveForm->dropDownList()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): ServidorPublicoController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): ServidorPublicoController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/views/servidorPublico/update.php(36): ServidorPublicoController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): ServidorPublicoController->renderInternal()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): ServidorPublicoController->renderFile()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): ServidorPublicoController->renderPartial()
+#9 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/controllers/ServidorPublicoController.php(129): ServidorPublicoController->render()
+#10 unknown(0): ServidorPublicoController->actionUpdate()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(133): ServidorPublicoController->runAction()
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CInlineFilter.php(58): ServidorPublicoController->filterAccessControl()
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#19 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#20 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): ServidorPublicoController->runActionWithFilters()
+#21 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): ServidorPublicoController->run()
+#22 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#24 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CWebApplication->run()
+REQUEST_URI=/retos/index.php?r=admin/servidorPublico/update&id_servidor_publico=4
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/views/servidorPublico/_form.php (121)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/views/servidorPublico/update.php (36)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/controllers/ServidorPublicoController.php (129)
+2014/12/22 14:17:29 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tivo = 1 AND id_jefe_directo = 4' at line 1. La sentencia SQL ejecutada fue: SELECT * FROM `servidor_publico` `t` WHERE ac tivo = 1 AND id_jefe_directo = 4.
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/models/ServidorPublico.php (145)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/views/servidorPublico/_form.php (121)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/views/servidorPublico/update.php (36)
+2014/12/22 14:17:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tivo = 1 AND id_jefe_directo = 4' at line 1. The SQL statement executed was: SELECT * FROM `servidor_publico` `t` WHERE ac tivo = 1 AND id_jefe_directo = 4' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/ar/CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/ar/CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/models/ServidorPublico.php(145): CActiveRecord->findAll(Object(CDbCriteria))
+#4 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/views/servidorPublico/_form.php(121): ServidorPublico->comboBox('4')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/views/servidorPublico/update.php(36): CController->renderPartial('_form', Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('update', Array, true)
+#13 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/controllers/ServidorPublicoController.php(129): CController->render('update', Array)
+#14 [internal function]: ServidorPublicoController->actionUpdate('4')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ServidorPublicoController), Array)
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ServidorPublicoController), Object(ReflectionMethod), Array)
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#24 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#26 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/servidorP...')
+#27 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#28 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#29 {main}
+REQUEST_URI=/retos/index.php?r=admin/servidorPublico/update&id_servidor_publico=4
+---
+2014/12/22 14:17:47 [warning] [application] Error al definir unsafe el atributo "foto" de "ServidorPublico".
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/controllers/ServidorPublicoController.php (108)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/index.php (17)
+2014/12/22 14:18:01 [warning] [application] Error al definir unsafe el atributo "foto" de "ServidorPublico".
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/controllers/ServidorPublicoController.php (108)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/index.php (17)
+2014/12/22 14:31:55 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. La sentencia SQL ejecutada fue: SELECT * FROM `servidor_publico` `t` WHERE activo = 1 AND id_jefe_directo <> .
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/models/ServidorPublico.php (145)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/views/servidorPublico/_form.php (121)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/views/servidorPublico/create.php (32)
+2014/12/22 14:31:55 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT * FROM `servidor_publico` `t` WHERE activo = 1 AND id_jefe_directo <> ' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/ar/CActiveRecord.php(1297): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/ar/CActiveRecord.php(1416): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/models/ServidorPublico.php(145): CActiveRecord->findAll(Object(CDbCriteria))
+#4 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/views/servidorPublico/_form.php(121): ServidorPublico->comboBox(NULL)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/views/servidorPublico/create.php(32): CController->renderPartial('_form', Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/X...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#13 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/controllers/ServidorPublicoController.php(82): CController->render('create', Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): ServidorPublicoController->actionCreate()
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#22 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#24 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/servidorP...')
+#25 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#26 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#27 {main}
+REQUEST_URI=/retos/index.php?r=admin/servidorPublico/create
+HTTP_REFERER=http://localhost/retos/index.php?r=admin/servidorPublico
+---
+2014/12/22 14:32:56 [warning] [application] Error al definir unsafe el atributo "foto" de "ServidorPublico".
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/controllers/ServidorPublicoController.php (55)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/index.php (17)
+2014/12/22 14:33:22 [warning] [application] Error al definir unsafe el atributo "foto" de "ServidorPublico".
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/controllers/ServidorPublicoController.php (55)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/index.php (17)
+2014/12/22 14:42:06 [warning] [application] Error al definir unsafe el atributo "foto" de "ServidorPublico".
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/controllers/ServidorPublicoController.php (58)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/index.php (17)
+2014/12/22 14:42:42 [warning] [application] Error al definir unsafe el atributo "foto" de "ServidorPublico".
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/modules/admin/controllers/ServidorPublicoController.php (116)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/index.php (17)
+2014/12/22 14:58:35 [error] [php] strtolower() expects parameter 1 to be string, object given (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/auth/CAccessControlFilter.php:112)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(1144): CAccessControlFilter->setRules()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CatDependenciaController->filterAccessControl()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CatDependenciaController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CatDependenciaController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CWebApplication->run()
+REQUEST_URI=/retos/index.php?r=admin/catDependencia
+in /Applications/XAMPP/xamppfiles/htdocs/retos/index.php (17)
+2014/12/22 14:59:41 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/auth/CAccessControlFilter.php:179
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/auth/CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/catDepend...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/retos/index.php?r=admin/catDependencia
+HTTP_REFERER=http://localhost/retos/index.php?r=admin/servidorPublico/index
+---
+2014/12/22 15:21:00 [error] [php] include(Persona.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yii/framework/YiiBase.php:421)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/components/UserIdentity.php(25): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/models/LoginForm.php(53): UserIdentity->authenticate()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#5 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/controllers/SiteController.php(82): LoginForm->validate()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CWebApplication->run()
+REQUEST_URI=/retos/index.php?r=site/login
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/components/UserIdentity.php (25)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/models/LoginForm.php (53)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/controllers/SiteController.php (82)
+2014/12/22 15:21:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "servidorPublico"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('servidorPublico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=servidorPublico
+HTTP_REFERER=http://localhost/retos/index.php?r=site/login
+---
+2014/12/22 15:23:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "servidorPublico"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('servidorPublico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=servidorPublico
+HTTP_REFERER=http://localhost/retos/index.php?r=site/login
+---
+2014/12/22 15:24:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "servidorPublico"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('servidorPublico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=servidorPublico
+HTTP_REFERER=http://localhost/retos/index.php?r=site/login
+---
+2014/12/22 15:24:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "servidorPublico"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('servidorPublico')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=servidorPublico
+HTTP_REFERER=http://localhost/retos/index.php?r=site/login
+---
+2014/12/22 16:02:04 [error] [php] Undefined variable: datoPersonal (/Applications/XAMPP/xamppfiles/htdocs/retos/protected/views/funcionario/index.php:34)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): FuncionarioController->renderFile()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): FuncionarioController->renderPartial()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/controllers/FuncionarioController.php(167): FuncionarioController->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): FuncionarioController->actionIndex()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(133): FuncionarioController->runAction()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CInlineFilter.php(58): FuncionarioController->filterAccessControl()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): FuncionarioController->runActionWithFilters()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): FuncionarioController->run()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CWebApplication->run()
+REQUEST_URI=/retos/index.php?r=funcionario
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/views/funcionario/index.php (34)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/controllers/FuncionarioController.php (167)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/index.php (17)
+2014/12/22 16:02:58 [error] [php] Undefined variable: datoPersonal (/Applications/XAMPP/xamppfiles/htdocs/retos/protected/views/funcionario/index.php:34)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): FuncionarioController->renderFile()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): FuncionarioController->renderPartial()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/controllers/FuncionarioController.php(166): FuncionarioController->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): FuncionarioController->actionIndex()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(133): FuncionarioController->runAction()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CInlineFilter.php(58): FuncionarioController->filterAccessControl()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): FuncionarioController->runActionWithFilters()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): FuncionarioController->run()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CWebApplication->run()
+REQUEST_URI=/retos/index.php?r=funcionario
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/views/funcionario/index.php (34)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/controllers/FuncionarioController.php (166)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/index.php (17)
+2014/12/22 16:19:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "admin/formacionAcademica/index"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/formacion...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\retos\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=admin/formacionAcademica/index&id_servidor_publico=4
+HTTP_REFERER=http://localhost:8080/retos/index.php?r=admin/servidorPublico
+---
+2014/12/22 16:20:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "formacionAcademica/index"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('formacionAcadem...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\retos\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=formacionAcademica/index&id_servidor_publico=4
+---
+2014/12/22 16:20:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "admin/formacionAcademica/index"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/formacion...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\retos\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=admin/formacionAcademica/index&id_servidor_publico=4
+HTTP_REFERER=http://localhost:8080/retos/index.php?r=admin/servidorPublico
+---
+2014/12/22 16:20:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "admin/formacionAcademica/index"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/formacion...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\retos\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=admin/formacionAcademica/index
+---
+2014/12/22 16:24:23 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() falló: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'activo' in 'where clause'. La sentencia SQL ejecutada fue: SELECT COUNT(*) FROM `formacion_academica` `t` WHERE (id_servidor_publico=:ycp2) AND (activo=:ycp3).
+in C:\xampp\htdocs\retos\protected\modules\admin\views\formacionAcademica\index.php (140)
+in C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php (163)
+in C:\xampp\htdocs\retos\index.php (17)
+2014/12/22 16:24:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'activo' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `formacion_academica` `t` WHERE (id_servidor_publico=:ycp2) AND (activo=:ycp3)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1546): CDbCommand->queryScalar()
+#2 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(179): CActiveRecord->count(Object(CDbCriteria))
+#3 C:\xampp\htdocs\yii\framework\web\CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(129): CDataProvider->getTotalItemCount()
+#5 C:\xampp\htdocs\yii\framework\web\CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(107): CDataProvider->getData()
+#7 C:\xampp\htdocs\yii\framework\zii\widgets\grid\CGridView.php(314): CBaseListView->init()
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(147): CGridView->init()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#10 C:\xampp\htdocs\retos\protected\modules\admin\views\formacionAcademica\index.php(140): CBaseController->widget('zii.widgets.gri...', Array)
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#15 C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php(163): CController->render('index', Array)
+#16 [internal function]: FormacionAcademicaController->actionIndex('4')
+#17 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(FormacionAcademicaController), Array)
+#18 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(FormacionAcademicaController), Object(ReflectionMethod), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#22 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#26 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#28 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/formacion...')
+#29 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#30 C:\xampp\htdocs\retos\index.php(17): CApplication->run()
+#31 {main}
+REQUEST_URI=/retos/index.php?r=admin/formacionAcademica/index&id_servidor_publico=4
+HTTP_REFERER=http://localhost:8080/retos/index.php?r=admin/servidorPublico
+---
+2014/12/22 16:37:52 [warning] [application] Error al definir unsafe el atributo "updateType" de "FormacionAcademica".
+in C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php (65)
+in C:\xampp\htdocs\retos\index.php (17)
+2014/12/22 16:37:52 [warning] [application] Error al definir unsafe el atributo "updateType" de "FormacionAcademica".
+in C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php (65)
+in C:\xampp\htdocs\retos\index.php (17)
+2014/12/22 16:48:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "FormacionAcademica/getDetalle"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('FormacionAcadem...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\retos\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=FormacionAcademica/getDetalle&IdRegistro=5
+HTTP_REFERER=http://localhost:8080/retos/index.php?r=admin/formacionAcademica/index&id_servidor_publico=4
+---
+2014/12/22 16:50:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "FormacionAcademica/getDetalle"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('FormacionAcadem...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\retos\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=FormacionAcademica/getDetalle&IdRegistro=5
+HTTP_REFERER=http://localhost:8080/retos/index.php?r=admin/formacionAcademica/index&id_servidor_publico=4
+---
+2014/12/22 17:02:34 [error] [php] Undefined variable: nombreModel (C:\xampp\htdocs\retos\protected\modules\admin\views\formacionAcademica\_view.php:44)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): FormacionAcademicaController->renderFile()
+#1 C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php(229): FormacionAcademicaController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FormacionAcademicaController->actionGetDetalle()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): FormacionAcademicaController->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FormacionAcademicaController->filterAccessControl()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): FormacionAcademicaController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): FormacionAcademicaController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\retos\index.php(17): CWebApplication->run()
+REQUEST_URI=/retos/index.php?r=admin/formacionAcademica/getDetalle&IdRegistro=5
+in C:\xampp\htdocs\retos\protected\modules\admin\views\formacionAcademica\_view.php (44)
+in C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php (229)
+in C:\xampp\htdocs\retos\index.php (17)
+2014/12/22 17:02:37 [error] [php] Undefined variable: nombreModel (C:\xampp\htdocs\retos\protected\modules\admin\views\formacionAcademica\_view.php:44)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): FormacionAcademicaController->renderFile()
+#1 C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php(229): FormacionAcademicaController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FormacionAcademicaController->actionGetDetalle()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): FormacionAcademicaController->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FormacionAcademicaController->filterAccessControl()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): FormacionAcademicaController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): FormacionAcademicaController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\retos\index.php(17): CWebApplication->run()
+REQUEST_URI=/retos/index.php?r=admin/formacionAcademica/getDetalle&IdRegistro=6
+in C:\xampp\htdocs\retos\protected\modules\admin\views\formacionAcademica\_view.php (44)
+in C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php (229)
+in C:\xampp\htdocs\retos\index.php (17)
+2014/12/22 17:04:18 [error] [php] Use of undefined constant FormacionAcademica - assumed 'FormacionAcademica' (C:\xampp\htdocs\retos\protected\modules\admin\views\formacionAcademica\_view.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): FormacionAcademicaController->renderFile()
+#1 C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php(229): FormacionAcademicaController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FormacionAcademicaController->actionGetDetalle()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): FormacionAcademicaController->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FormacionAcademicaController->filterAccessControl()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): FormacionAcademicaController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): FormacionAcademicaController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\retos\index.php(17): CWebApplication->run()
+REQUEST_URI=/retos/index.php?r=admin/formacionAcademica/getDetalle&IdRegistro=6
+in C:\xampp\htdocs\retos\protected\modules\admin\views\formacionAcademica\_view.php (57)
+in C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php (229)
+in C:\xampp\htdocs\retos\index.php (17)
+2014/12/22 17:05:08 [error] [php] Use of undefined constant FormacionAcademica - assumed 'FormacionAcademica' (C:\xampp\htdocs\retos\protected\modules\admin\views\formacionAcademica\_view.php:55)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): FormacionAcademicaController->renderFile()
+#1 C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php(229): FormacionAcademicaController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FormacionAcademicaController->actionGetDetalle()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): FormacionAcademicaController->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FormacionAcademicaController->filterAccessControl()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): FormacionAcademicaController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): FormacionAcademicaController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\retos\index.php(17): CWebApplication->run()
+REQUEST_URI=/retos/index.php?r=admin/formacionAcademica/getDetalle&IdRegistro=5
+in C:\xampp\htdocs\retos\protected\modules\admin\views\formacionAcademica\_view.php (55)
+in C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php (229)
+in C:\xampp\htdocs\retos\index.php (17)
+2014/12/22 17:06:43 [error] [php] Use of undefined constant FormacionAcademica - assumed 'FormacionAcademica' (C:\xampp\htdocs\retos\protected\modules\admin\views\formacionAcademica\_view.php:55)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): FormacionAcademicaController->renderFile()
+#1 C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php(229): FormacionAcademicaController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FormacionAcademicaController->actionGetDetalle()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): FormacionAcademicaController->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FormacionAcademicaController->filterAccessControl()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): FormacionAcademicaController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): FormacionAcademicaController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\retos\index.php(17): CWebApplication->run()
+REQUEST_URI=/retos/index.php?r=admin/formacionAcademica/getDetalle&IdRegistro=6
+in C:\xampp\htdocs\retos\protected\modules\admin\views\formacionAcademica\_view.php (55)
+in C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php (229)
+in C:\xampp\htdocs\retos\index.php (17)
+2014/12/22 17:06:54 [error] [php] Use of undefined constant FormacionAcademica - assumed 'FormacionAcademica' (C:\xampp\htdocs\retos\protected\modules\admin\views\formacionAcademica\_view.php:55)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): FormacionAcademicaController->renderFile()
+#1 C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php(229): FormacionAcademicaController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FormacionAcademicaController->actionGetDetalle()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): FormacionAcademicaController->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FormacionAcademicaController->filterAccessControl()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): FormacionAcademicaController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): FormacionAcademicaController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\retos\index.php(17): CWebApplication->run()
+REQUEST_URI=/retos/index.php?r=admin/formacionAcademica/getDetalle&IdRegistro=5
+in C:\xampp\htdocs\retos\protected\modules\admin\views\formacionAcademica\_view.php (55)
+in C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php (229)
+in C:\xampp\htdocs\retos\index.php (17)
+2014/12/22 17:12:04 [warning] [application] Error al definir unsafe el atributo "updateType" de "TrayectoriaLaboral".
+in C:\xampp\htdocs\retos\protected\modules\admin\controllers\TrayectoriaLaboralController.php (68)
+in C:\xampp\htdocs\retos\index.php (17)
+2014/12/22 17:35:03 [error] [php] include(menu.php): failed to open stream: No such file or directory (C:\xampp\htdocs\retos\protected\modules\admin\views\formacionAcademica\update.php:26)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): FormacionAcademicaController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(869): FormacionAcademicaController->renderFile()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(782): FormacionAcademicaController->renderPartial()
+#3 C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php(132): FormacionAcademicaController->render()
+#4 unknown(0): FormacionAcademicaController->actionUpdate()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): FormacionAcademicaController->runAction()
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#11 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FormacionAcademicaController->filterAccessControl()
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(265): FormacionAcademicaController->runActionWithFilters()
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): FormacionAcademicaController->run()
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\retos\index.php(17): CWebApplication->run()
+REQUEST_URI=/retos/index.php?r=admin/formacionAcademica/update&id_formacion_academica=5
+in C:\xampp\htdocs\retos\protected\modules\admin\views\formacionAcademica\update.php (26)
+in C:\xampp\htdocs\retos\protected\modules\admin\views\formacionAcademica\update.php (26)
+in C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php (132)
+2014/12/22 17:36:03 [error] [exception.CException] exception 'CException' with message 'Propiedad "FormacionAcademica"."formacion_academica" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('formacion_acade...')
+#1 C:\xampp\htdocs\retos\protected\modules\admin\views\formacionAcademica\update.php(34): CActiveRecord->__get('formacion_acade...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('update', Array, true)
+#6 C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php(132): CController->render('update', Array)
+#7 [internal function]: FormacionAcademicaController->actionUpdate('5')
+#8 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(FormacionAcademicaController), Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(FormacionAcademicaController), Object(ReflectionMethod), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/formacion...')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\retos\index.php(17): CApplication->run()
+#22 {main}
+REQUEST_URI=/retos/index.php?r=admin/formacionAcademica/update&id_formacion_academica=5
+HTTP_REFERER=http://localhost:8080/retos/index.php?r=admin/formacionAcademica/index&id_servidor_publico=4
+---
+2014/12/22 17:36:08 [error] [exception.CException] exception 'CException' with message 'Propiedad "FormacionAcademica"."formacion_academica" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('formacion_acade...')
+#1 C:\xampp\htdocs\retos\protected\modules\admin\views\formacionAcademica\update.php(34): CActiveRecord->__get('formacion_acade...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('update', Array, true)
+#6 C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php(132): CController->render('update', Array)
+#7 [internal function]: FormacionAcademicaController->actionUpdate('5')
+#8 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(FormacionAcademicaController), Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(FormacionAcademicaController), Object(ReflectionMethod), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/formacion...')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\retos\index.php(17): CApplication->run()
+#22 {main}
+REQUEST_URI=/retos/index.php?r=admin/formacionAcademica/update&id_formacion_academica=5
+---
+2014/12/22 17:49:16 [error] [exception.CException] exception 'CException' with message 'Propiedad "FormacionAcademica"."fecha_modificacion" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(159): CComponent->__set('fecha_modificac...', '2014-12-22 05:4...')
+#1 C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php(121): CActiveRecord->__set('fecha_modificac...', '2014-12-22 05:4...')
+#2 [internal function]: FormacionAcademicaController->actionUpdate('5')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(FormacionAcademicaController), Array)
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(FormacionAcademicaController), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/formacion...')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\retos\index.php(17): CApplication->run()
+#17 {main}
+REQUEST_URI=/retos/index.php?r=admin/formacionAcademica/update&id_formacion_academica=5
+HTTP_REFERER=http://localhost:8080/retos/index.php?r=admin/formacionAcademica/update&id_formacion_academica=5
+---
+2014/12/22 17:49:58 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in C:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/formacion...')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\retos\index.php(17): CApplication->run()
+#12 {main}
+REQUEST_URI=/retos/index.php?r=admin/formacionAcademica/index&id_formacion_academica=5
+HTTP_REFERER=http://localhost:8080/retos/index.php?r=admin/formacionAcademica/update&id_formacion_academica=5
+---
+2014/12/22 17:51:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "admin/admin/formacionAcademica/index"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin/for...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\retos\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=admin/admin/formacionAcademica/index&id_servidor_publico=4
+HTTP_REFERER=http://localhost:8080/retos/index.php?r=admin/formacionAcademica/update&id_formacion_academica=5
+---
+2014/12/22 17:57:00 [error] [php] Undefined variable: model (C:\xampp\htdocs\retos\protected\modules\admin\views\formacionAcademica\_form.php:44)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): FormacionAcademicaController->renderFile()
+#1 C:\xampp\htdocs\retos\protected\modules\admin\views\formacionAcademica\update.php(36): FormacionAcademicaController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): FormacionAcademicaController->renderInternal()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): FormacionAcademicaController->renderFile()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): FormacionAcademicaController->renderPartial()
+#6 C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php(132): FormacionAcademicaController->render()
+#7 unknown(0): FormacionAcademicaController->actionUpdate()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): FormacionAcademicaController->runAction()
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#14 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FormacionAcademicaController->filterAccessControl()
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): FormacionAcademicaController->runActionWithFilters()
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): FormacionAcademicaController->run()
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\retos\index.php(17): CWebApplication->run()
+REQUEST_URI=/retos/index.php?r=admin/formacionAcademica/update&id_formacion_academica=5
+in C:\xampp\htdocs\retos\protected\modules\admin\views\formacionAcademica\_form.php (44)
+in C:\xampp\htdocs\retos\protected\modules\admin\views\formacionAcademica\update.php (36)
+in C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php (132)
+2014/12/22 18:03:32 [error] [exception.CException] exception 'CException' with message 'FormacionAcademicaController no ha podido encontrar la vista "excel" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php(253): CController->renderPartial('excel')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FormacionAcademicaController->actionExportarExcel()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('exportarExcel')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/formacion...')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\retos\index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/retos/index.php?r=admin/formacionAcademica/exportarExcel
+HTTP_REFERER=http://localhost:8080/retos/index.php?r=admin/formacionAcademica/index&id_servidor_publico=4
+---
+2014/12/22 18:04:38 [error] [exception.CException] exception 'CException' with message 'FormacionAcademicaController no ha podido encontrar la vista "excel" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php(253): CController->renderPartial('excel')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FormacionAcademicaController->actionExportarExcel()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('exportarExcel')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/formacion...')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\retos\index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/retos/index.php?r=admin/formacionAcademica/exportarExcel
+HTTP_REFERER=http://localhost:8080/retos/index.php?r=admin/formacionAcademica/index&id_servidor_publico=4
+---
+2014/12/22 17:07:52 [error] [exception.CException] exception 'CException' with message 'Propiedad "ServidorPublico"."servidor_publico" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('servidor_public...')
+#1 C:\xampp\htdocs\retos\protected\modules\admin\views\formacionAcademica\excel.php(49): CActiveRecord->__get('servidor_public...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php(253): CController->renderPartial('excel')
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FormacionAcademicaController->actionExportarExcel()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('exportarExcel')
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/formacion...')
+#17 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\retos\index.php(17): CApplication->run()
+#19 {main}
+REQUEST_URI=/retos/index.php?r=admin/formacionAcademica/exportarExcel
+HTTP_REFERER=http://localhost:8080/retos/index.php?r=admin/formacionAcademica/index&id_servidor_publico=4
+---
+2014/12/22 17:11:05 [error] [exception.CException] exception 'CException' with message 'Propiedad "ServidorPublico"."servidor_publico" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('servidor_public...')
+#1 C:\xampp\htdocs\retos\protected\modules\admin\views\formacionAcademica\excel.php(49): CActiveRecord->__get('servidor_public...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php(253): CController->renderPartial('excel')
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FormacionAcademicaController->actionExportarExcel()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('exportarExcel')
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/formacion...')
+#17 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\retos\index.php(17): CApplication->run()
+#19 {main}
+REQUEST_URI=/retos/index.php?r=admin/formacionAcademica/exportarExcel
+HTTP_REFERER=http://localhost:8080/retos/index.php?r=admin/formacionAcademica/index&id_servidor_publico=4
+---
+2014/12/22 17:24:24 [error] [php] Undefined variable: contadorRenglones (C:\xampp\htdocs\retos\protected\modules\admin\views\formacionAcademica\excel.php:56)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): FormacionAcademicaController->renderFile()
+#1 C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php(253): FormacionAcademicaController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): FormacionAcademicaController->actionExportarExcel()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): FormacionAcademicaController->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): FormacionAcademicaController->filterAccessControl()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): FormacionAcademicaController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): FormacionAcademicaController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\retos\index.php(17): CWebApplication->run()
+REQUEST_URI=/retos/index.php?r=admin/formacionAcademica/exportarExcel
+in C:\xampp\htdocs\retos\protected\modules\admin\views\formacionAcademica\excel.php (56)
+in C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php (253)
+in C:\xampp\htdocs\retos\index.php (17)
+2014/12/22 18:46:53 [error] [exception.CException] exception 'CException' with message 'Propiedad "FormacionAcademica"."activo" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(159): CComponent->__set('activo', 0)
+#1 C:\xampp\htdocs\retos\protected\modules\admin\controllers\FormacionAcademicaController.php(142): CActiveRecord->__set('activo', 0)
+#2 [internal function]: FormacionAcademicaController->actionDelete('5')
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(FormacionAcademicaController), Array)
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(FormacionAcademicaController), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1116): CFilterChain->run()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/formacion...')
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\retos\index.php(17): CApplication->run()
+#20 {main}
+REQUEST_URI=/retos/index.php?r=admin%2FformacionAcademica%2Fdelete&id_formacion_academica=5&ajax=formacion-academica-grid
+HTTP_REFERER=http://localhost:8080/retos/index.php?r=admin/formacionAcademica/index&id_servidor_publico=4
+---
+2014/12/22 18:47:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "admin/cursosDeseados/index"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/cursosDes...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\retos\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=admin/cursosDeseados/index&id_servidor_publico=4
+HTTP_REFERER=http://localhost:8080/retos/index.php?r=admin/servidorPublico
+---
+2014/12/22 18:49:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "admin/cursosDeseados/index"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/cursosDes...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\retos\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=admin/cursosDeseados/index&id_servidor_publico=4
+HTTP_REFERER=http://localhost:8080/retos/index.php?r=admin/servidorPublico
+---
+2014/12/22 18:55:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "CursosDeseados/getDetalle"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('CursosDeseados/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\retos\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=CursosDeseados/getDetalle&IdRegistro=1
+HTTP_REFERER=http://localhost:8080/retos/index.php?r=admin/cursosDeseados/index&id_servidor_publico=4
+---
+2014/12/22 18:57:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "CursosDeseados/getDetalle"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('CursosDeseados/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\retos\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=CursosDeseados/getDetalle&IdRegistro=1
+HTTP_REFERER=http://localhost:8080/retos/index.php?r=admin/cursosDeseados/index&id_servidor_publico=4
+---
+2014/12/22 19:01:58 [error] [php] Undefined variable: nombreCampo (C:\xampp\htdocs\retos\protected\modules\admin\views\cursosDeseados\_view.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): CursosDeseadosController->renderFile()
+#1 C:\xampp\htdocs\retos\protected\modules\admin\controllers\CursosDeseadosController.php(227): CursosDeseadosController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): CursosDeseadosController->actionGetDetalle()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CursosDeseadosController->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CursosDeseadosController->filterAccessControl()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CursosDeseadosController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CursosDeseadosController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\retos\index.php(17): CWebApplication->run()
+REQUEST_URI=/retos/index.php?r=admin/cursosDeseados/getDetalle&IdRegistro=1
+in C:\xampp\htdocs\retos\protected\modules\admin\views\cursosDeseados\_view.php (36)
+in C:\xampp\htdocs\retos\protected\modules\admin\controllers\CursosDeseadosController.php (227)
+in C:\xampp\htdocs\retos\index.php (17)
+2014/12/22 19:02:19 [error] [php] Undefined variable: nombreCampo (C:\xampp\htdocs\retos\protected\modules\admin\views\cursosDeseados\_view.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): CursosDeseadosController->renderFile()
+#1 C:\xampp\htdocs\retos\protected\modules\admin\controllers\CursosDeseadosController.php(227): CursosDeseadosController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): CursosDeseadosController->actionGetDetalle()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CursosDeseadosController->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CursosDeseadosController->filterAccessControl()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CursosDeseadosController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CursosDeseadosController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\retos\index.php(17): CWebApplication->run()
+REQUEST_URI=/retos/index.php?r=admin/cursosDeseados/getDetalle&IdRegistro=1
+in C:\xampp\htdocs\retos\protected\modules\admin\views\cursosDeseados\_view.php (36)
+in C:\xampp\htdocs\retos\protected\modules\admin\controllers\CursosDeseadosController.php (227)
+in C:\xampp\htdocs\retos\index.php (17)
+2014/12/22 19:03:13 [error] [php] Undefined variable: nombreCampo (C:\xampp\htdocs\retos\protected\modules\admin\views\cursosDeseados\_view.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): CursosDeseadosController->renderFile()
+#1 C:\xampp\htdocs\retos\protected\modules\admin\controllers\CursosDeseadosController.php(227): CursosDeseadosController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): CursosDeseadosController->actionGetDetalle()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CursosDeseadosController->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CursosDeseadosController->filterAccessControl()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CursosDeseadosController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CursosDeseadosController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\retos\index.php(17): CWebApplication->run()
+REQUEST_URI=/retos/index.php?r=admin/cursosDeseados/getDetalle&IdRegistro=1
+in C:\xampp\htdocs\retos\protected\modules\admin\views\cursosDeseados\_view.php (36)
+in C:\xampp\htdocs\retos\protected\modules\admin\controllers\CursosDeseadosController.php (227)
+in C:\xampp\htdocs\retos\index.php (17)
+2014/12/22 19:03:22 [error] [php] Undefined variable: nombreCampo (C:\xampp\htdocs\retos\protected\modules\admin\views\cursosDeseados\_view.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): CursosDeseadosController->renderFile()
+#1 C:\xampp\htdocs\retos\protected\modules\admin\controllers\CursosDeseadosController.php(227): CursosDeseadosController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): CursosDeseadosController->actionGetDetalle()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CursosDeseadosController->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CursosDeseadosController->filterAccessControl()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CursosDeseadosController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CursosDeseadosController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\retos\index.php(17): CWebApplication->run()
+REQUEST_URI=/retos/index.php?r=admin/cursosDeseados/getDetalle&IdRegistro=1
+in C:\xampp\htdocs\retos\protected\modules\admin\views\cursosDeseados\_view.php (36)
+in C:\xampp\htdocs\retos\protected\modules\admin\controllers\CursosDeseadosController.php (227)
+in C:\xampp\htdocs\retos\index.php (17)
+2014/12/22 19:03:59 [error] [php] Use of undefined constant CursosDeseados - assumed 'CursosDeseados' (C:\xampp\htdocs\retos\protected\modules\admin\views\cursosDeseados\_view.php:108)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): CursosDeseadosController->renderFile()
+#1 C:\xampp\htdocs\retos\protected\modules\admin\controllers\CursosDeseadosController.php(227): CursosDeseadosController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): CursosDeseadosController->actionGetDetalle()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CursosDeseadosController->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CursosDeseadosController->filterAccessControl()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CursosDeseadosController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CursosDeseadosController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\retos\index.php(17): CWebApplication->run()
+REQUEST_URI=/retos/index.php?r=admin/cursosDeseados/getDetalle&IdRegistro=2
+in C:\xampp\htdocs\retos\protected\modules\admin\views\cursosDeseados\_view.php (108)
+in C:\xampp\htdocs\retos\protected\modules\admin\controllers\CursosDeseadosController.php (227)
+in C:\xampp\htdocs\retos\index.php (17)
+2014/12/22 19:04:06 [error] [php] Use of undefined constant CursosDeseados - assumed 'CursosDeseados' (C:\xampp\htdocs\retos\protected\modules\admin\views\cursosDeseados\_view.php:108)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): CursosDeseadosController->renderFile()
+#1 C:\xampp\htdocs\retos\protected\modules\admin\controllers\CursosDeseadosController.php(227): CursosDeseadosController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): CursosDeseadosController->actionGetDetalle()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CursosDeseadosController->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CursosDeseadosController->filterAccessControl()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CursosDeseadosController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CursosDeseadosController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\retos\index.php(17): CWebApplication->run()
+REQUEST_URI=/retos/index.php?r=admin/cursosDeseados/getDetalle&IdRegistro=1
+in C:\xampp\htdocs\retos\protected\modules\admin\views\cursosDeseados\_view.php (108)
+in C:\xampp\htdocs\retos\protected\modules\admin\controllers\CursosDeseadosController.php (227)
+in C:\xampp\htdocs\retos\index.php (17)
+2014/12/22 19:11:40 [error] [exception.CException] exception 'CException' with message 'CursosDeseadosController no ha podido encontrar la vista "excel" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\retos\protected\modules\admin\controllers\CursosDeseadosController.php(251): CController->renderPartial('excel')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): CursosDeseadosController->actionExportarExcel()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('exportarExcel')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/cursosDes...')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\retos\index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/retos/index.php?r=admin/cursosDeseados/exportarExcel
+HTTP_REFERER=http://localhost:8080/retos/index.php?r=admin/cursosDeseados/index&id_servidor_publico=4
+---
+2014/12/22 18:13:15 [error] [exception.CException] exception 'CException' with message 'Propiedad "ServidorPublico"."servidor_publico" no se encuentra definida.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('servidor_public...')
+#1 C:\xampp\htdocs\retos\protected\modules\admin\views\cursosDeseados\excel.php(46): CActiveRecord->__get('servidor_public...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\retos\protected\modules\admin\controllers\CursosDeseadosController.php(251): CController->renderPartial('excel')
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): CursosDeseadosController->actionExportarExcel()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('exportarExcel')
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/cursosDes...')
+#17 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\retos\index.php(17): CApplication->run()
+#19 {main}
+REQUEST_URI=/retos/index.php?r=admin/cursosDeseados/exportarExcel
+HTTP_REFERER=http://localhost:8080/retos/index.php?r=admin/cursosDeseados/index&id_servidor_publico=4
+---
+2014/12/22 22:46:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "CursoDisponible/getDetalle"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+<<<<<<< Updated upstream
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('CursoDisponible...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\retos\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=CursoDisponible/getDetalle&IdRegistro=4
+HTTP_REFERER=http://localhost:8080/retos/index.php?r=admin/cursoDisponible/index&id_curso_disponible=1
+=======
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): FuncionarioController->renderFile()
+#1 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/views/funcionario/index.php(97): FuncionarioController->renderPartial()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(126): require()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CBaseController.php(95): FuncionarioController->renderInternal()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(869): FuncionarioController->renderFile()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(782): FuncionarioController->renderPartial()
+#6 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/controllers/FuncionarioController.php(166): FuncionarioController->render()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/actions/CInlineAction.php(49): FuncionarioController->actionIndex()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(133): FuncionarioController->runAction()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CInlineFilter.php(58): FuncionarioController->filterAccessControl()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): FuncionarioController->runActionWithFilters()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): FuncionarioController->run()
+#17 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#19 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CWebApplication->run()
+REQUEST_URI=/retos/index.php?r=funcionario
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/views/funcionario/_form_perfil.php (69)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/views/funcionario/index.php (97)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/controllers/FuncionarioController.php (166)
+2014/12/22 20:54:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 20:54:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+HTTP_REFERER=http://localhost/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 20:54:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 20:54:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+HTTP_REFERER=http://localhost/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 20:55:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 20:55:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+HTTP_REFERER=http://localhost/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 20:56:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 20:56:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 20:56:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 20:56:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 20:57:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 20:58:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 20:58:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+HTTP_REFERER=http://localhost/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 20:58:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 20:58:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+HTTP_REFERER=http://localhost/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 20:58:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 20:58:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+HTTP_REFERER=http://localhost/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 20:59:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 20:59:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+HTTP_REFERER=http://localhost/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 20:59:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 20:59:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+HTTP_REFERER=http://localhost/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 21:00:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 21:00:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+HTTP_REFERER=http://localhost/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 21:01:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 21:01:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+HTTP_REFERER=http://localhost/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 21:01:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 21:01:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+HTTP_REFERER=http://localhost/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 21:02:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 21:02:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "webservices/webservices/usuarios"' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+HTTP_REFERER=http://localhost/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 21:03:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "webservices" solicitada.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(270): CController->missingAction('webservices')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('webservices')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 21:03:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "webservices" solicitada.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(270): CController->missingAction('webservices')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('webservices')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/web...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/retos/index.php?r=webservices/webservices/usuarios
+---
+2014/12/22 21:28:20 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'password' in 'where clause'. La sentencia SQL ejecutada fue: SELECT usuario FROM `socio_tecnologico` `t` WHERE password = :password AND usuario = :usuario.
+in /Applications/XAMPP/xamppfiles/htdocs/retos/protected/controllers/WebservicesController.php (25)
+in /Applications/XAMPP/xamppfiles/htdocs/retos/index.php (17)
+2014/12/22 21:28:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'password' in 'where clause'. The SQL statement executed was: SELECT usuario FROM `socio_tecnologico` `t` WHERE password = :password AND usuario = :usuario' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/ar/CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/db/ar/CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/retos/protected/controllers/WebservicesController.php(25): CActiveRecord->findAll(Object(CDbCriteria))
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(1144): WebservicesController->accessRules()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('usuarios')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/usu...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#13 {main}
+REQUEST_URI=/retos/index.php?r=webservices/usuarios
+---
+2014/12/22 21:37:06 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('crearCurso')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webservices/cre...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/retos/index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/retos/index.php?r=webservices/crearCurso
+>>>>>>> Stashed changes
+---

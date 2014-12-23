@@ -1,0 +1,92 @@
+
+
+
+div.errorMessage{
+    color: red;
+}
+
+
+
+.login-input{
+    top: 2px; /* adjust icon position */
+    left: 0px;
+    background-image: url("img/login.png"); /* all icons in a single file */
+    background-repeat: no-repeat;
+    background-position: -48px 0px; /* position of the right icon */
+}
+
+.btn-login{
+
+
+
+}
+
+
+.button-column{
+    color: #C2002F;
+    text-decoration: none
+}
+
+h4,h5{
+    text-align: center;
+
+}
+
+.titulo-curso{
+    color: #C2002F;
+    text-align: left;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.titulo-puesto{
+    color: #323335;
+    text-align: left;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+
+.desc-curso{
+    text-align: justify;
+    color: #323335;
+
+}
+
+
+
+#myTab li{
+    width: 25%;
+    background-color: #E9EAF0;
+    height: 50px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+
+    height: 50px;
+}
+
+
+.nav-tabs > li > a:hover {
+    height: 50px;
+}
+
+.input-form{
+    background: transparent;
+    border: transparent;
+    background-image: url("../img/linea_input.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 100%;
+    height: 30px;
+    color: #323335;
+    width: 100%;
+    font-size: 13pt;
+}
+
+
+span{
+
+    font-weight: bold;
+
+}
